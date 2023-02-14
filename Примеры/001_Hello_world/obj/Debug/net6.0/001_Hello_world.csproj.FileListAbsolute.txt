@@ -1,0 +1,15 @@
+/Users/alex/Desktop/Geekbrains_education/Примеры/001_Hello_world/bin/Debug/net6.0/001_Hello_world
+/Users/alex/Desktop/Geekbrains_education/Примеры/001_Hello_world/bin/Debug/net6.0/001_Hello_world.deps.json
+/Users/alex/Desktop/Geekbrains_education/Примеры/001_Hello_world/bin/Debug/net6.0/001_Hello_world.runtimeconfig.json
+/Users/alex/Desktop/Geekbrains_education/Примеры/001_Hello_world/bin/Debug/net6.0/001_Hello_world.dll
+/Users/alex/Desktop/Geekbrains_education/Примеры/001_Hello_world/bin/Debug/net6.0/001_Hello_world.pdb
+/Users/alex/Desktop/Geekbrains_education/Примеры/001_Hello_world/obj/Debug/net6.0/001_Hello_world.csproj.AssemblyReference.cache
+/Users/alex/Desktop/Geekbrains_education/Примеры/001_Hello_world/obj/Debug/net6.0/001_Hello_world.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alex/Desktop/Geekbrains_education/Примеры/001_Hello_world/obj/Debug/net6.0/001_Hello_world.AssemblyInfoInputs.cache
+/Users/alex/Desktop/Geekbrains_education/Примеры/001_Hello_world/obj/Debug/net6.0/001_Hello_world.AssemblyInfo.cs
+/Users/alex/Desktop/Geekbrains_education/Примеры/001_Hello_world/obj/Debug/net6.0/001_Hello_world.csproj.CoreCompileInputs.cache
+/Users/alex/Desktop/Geekbrains_education/Примеры/001_Hello_world/obj/Debug/net6.0/001_Hello_world.dll
+/Users/alex/Desktop/Geekbrains_education/Примеры/001_Hello_world/obj/Debug/net6.0/refint/001_Hello_world.dll
+/Users/alex/Desktop/Geekbrains_education/Примеры/001_Hello_world/obj/Debug/net6.0/001_Hello_world.pdb
+/Users/alex/Desktop/Geekbrains_education/Примеры/001_Hello_world/obj/Debug/net6.0/001_Hello_world.genruntimeconfig.cache
+/Users/alex/Desktop/Geekbrains_education/Примеры/001_Hello_world/obj/Debug/net6.0/ref/001_Hello_world.dll

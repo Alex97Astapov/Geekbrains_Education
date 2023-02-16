@@ -1,0 +1,15 @@
+/Users/alex/Desktop/Geekbrains_education/Домашняя_работа_04/bin/Debug/net6.0/Домашняя_работа_04
+/Users/alex/Desktop/Geekbrains_education/Домашняя_работа_04/bin/Debug/net6.0/Домашняя_работа_04.deps.json
+/Users/alex/Desktop/Geekbrains_education/Домашняя_работа_04/bin/Debug/net6.0/Домашняя_работа_04.runtimeconfig.json
+/Users/alex/Desktop/Geekbrains_education/Домашняя_работа_04/bin/Debug/net6.0/Домашняя_работа_04.dll
+/Users/alex/Desktop/Geekbrains_education/Домашняя_работа_04/bin/Debug/net6.0/Домашняя_работа_04.pdb
+/Users/alex/Desktop/Geekbrains_education/Домашняя_работа_04/obj/Debug/net6.0/Домашняя_работа_04.csproj.AssemblyReference.cache
+/Users/alex/Desktop/Geekbrains_education/Домашняя_работа_04/obj/Debug/net6.0/Домашняя_работа_04.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alex/Desktop/Geekbrains_education/Домашняя_работа_04/obj/Debug/net6.0/Домашняя_работа_04.AssemblyInfoInputs.cache
+/Users/alex/Desktop/Geekbrains_education/Домашняя_работа_04/obj/Debug/net6.0/Домашняя_работа_04.AssemblyInfo.cs
+/Users/alex/Desktop/Geekbrains_education/Домашняя_работа_04/obj/Debug/net6.0/Домашняя_работа_04.csproj.CoreCompileInputs.cache
+/Users/alex/Desktop/Geekbrains_education/Домашняя_работа_04/obj/Debug/net6.0/Домашняя_работа_04.dll
+/Users/alex/Desktop/Geekbrains_education/Домашняя_работа_04/obj/Debug/net6.0/refint/Домашняя_работа_04.dll
+/Users/alex/Desktop/Geekbrains_education/Домашняя_работа_04/obj/Debug/net6.0/Домашняя_работа_04.pdb
+/Users/alex/Desktop/Geekbrains_education/Домашняя_работа_04/obj/Debug/net6.0/Домашняя_работа_04.genruntimeconfig.cache
+/Users/alex/Desktop/Geekbrains_education/Домашняя_работа_04/obj/Debug/net6.0/ref/Домашняя_работа_04.dll

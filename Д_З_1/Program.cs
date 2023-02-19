@@ -1,5 +1,21 @@
-﻿Console.Write("Введите любое пятизначное число: ");
+﻿Console.Clear();
+Console.Write("Введите любое пятизначное число: ");
 int i = int.Parse(Console.ReadLine());
-int[] massiv = int new[];
-int b = 0;
-for (b = 0; )
+int a = i / 10000;
+int a1 = i % 10;
+int a2 = (i / 1000) % 10;
+int a3 = (i % 100) / 10;
+
+if (i < 10000)
+{
+   Console.WriteLine($"Число {i} - должно быть пятизначным.  ");
+}
+
+else if (a == a1 & a2 == a3)
+{
+   Console.WriteLine($"Число {i} - является палиндромом  ");
+}
+else
+{
+   Console.WriteLine($"Число {i} - не является палиндромом  ");
+}

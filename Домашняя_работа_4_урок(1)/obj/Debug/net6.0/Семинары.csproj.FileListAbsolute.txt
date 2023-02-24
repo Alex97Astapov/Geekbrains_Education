@@ -1,0 +1,15 @@
+/Users/alex/Desktop/Geekbrains_education/Семинары/obj/Debug/net6.0/Семинары.csproj.AssemblyReference.cache
+/Users/alex/Desktop/Geekbrains_education/Семинары/obj/Debug/net6.0/Семинары.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alex/Desktop/Geekbrains_education/Семинары/obj/Debug/net6.0/Семинары.AssemblyInfoInputs.cache
+/Users/alex/Desktop/Geekbrains_education/Семинары/obj/Debug/net6.0/Семинары.AssemblyInfo.cs
+/Users/alex/Desktop/Geekbrains_education/Семинары/obj/Debug/net6.0/Семинары.csproj.CoreCompileInputs.cache
+/Users/alex/Desktop/Geekbrains_education/Семинары/bin/Debug/net6.0/Семинары
+/Users/alex/Desktop/Geekbrains_education/Семинары/bin/Debug/net6.0/Семинары.deps.json
+/Users/alex/Desktop/Geekbrains_education/Семинары/bin/Debug/net6.0/Семинары.runtimeconfig.json
+/Users/alex/Desktop/Geekbrains_education/Семинары/bin/Debug/net6.0/Семинары.dll
+/Users/alex/Desktop/Geekbrains_education/Семинары/bin/Debug/net6.0/Семинары.pdb
+/Users/alex/Desktop/Geekbrains_education/Семинары/obj/Debug/net6.0/Семинары.dll
+/Users/alex/Desktop/Geekbrains_education/Семинары/obj/Debug/net6.0/refint/Семинары.dll
+/Users/alex/Desktop/Geekbrains_education/Семинары/obj/Debug/net6.0/Семинары.pdb
+/Users/alex/Desktop/Geekbrains_education/Семинары/obj/Debug/net6.0/Семинары.genruntimeconfig.cache
+/Users/alex/Desktop/Geekbrains_education/Семинары/obj/Debug/net6.0/ref/Семинары.dll

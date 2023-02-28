@@ -19,5 +19,5 @@ int Sum(int[] array)
    return summa;
 }
 Console.Clear();
-int[] startArray = GetArray(6, 1, 9);
+int[] startArray = GetArray(9, 1, 20);
 Console.WriteLine($"{String.Join(",", startArray)} -->{Sum(startArray)}");

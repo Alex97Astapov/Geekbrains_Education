@@ -17,6 +17,6 @@ int Number(int[] array)
    }
    return count;
 }
-
+Console.Clear();
 int[] startArray = GetArray(5, 101, 999);
 Console.WriteLine($"В массиве {String.Join(",", startArray)} {Number(startArray)} четных чисел");

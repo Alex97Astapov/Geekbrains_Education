@@ -1,0 +1,15 @@
+/Users/alex/Desktop/Geekbrains_education/ДЗ_5урок_1/obj/Debug/net6.0/ДЗ_5урок_1.csproj.AssemblyReference.cache
+/Users/alex/Desktop/Geekbrains_education/ДЗ_5урок_1/obj/Debug/net6.0/ДЗ_5урок_1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alex/Desktop/Geekbrains_education/ДЗ_5урок_1/obj/Debug/net6.0/ДЗ_5урок_1.AssemblyInfoInputs.cache
+/Users/alex/Desktop/Geekbrains_education/ДЗ_5урок_1/obj/Debug/net6.0/ДЗ_5урок_1.AssemblyInfo.cs
+/Users/alex/Desktop/Geekbrains_education/ДЗ_5урок_1/obj/Debug/net6.0/ДЗ_5урок_1.csproj.CoreCompileInputs.cache
+/Users/alex/Desktop/Geekbrains_education/ДЗ_5урок_1/bin/Debug/net6.0/ДЗ_5урок_1
+/Users/alex/Desktop/Geekbrains_education/ДЗ_5урок_1/bin/Debug/net6.0/ДЗ_5урок_1.deps.json
+/Users/alex/Desktop/Geekbrains_education/ДЗ_5урок_1/bin/Debug/net6.0/ДЗ_5урок_1.runtimeconfig.json
+/Users/alex/Desktop/Geekbrains_education/ДЗ_5урок_1/bin/Debug/net6.0/ДЗ_5урок_1.dll
+/Users/alex/Desktop/Geekbrains_education/ДЗ_5урок_1/bin/Debug/net6.0/ДЗ_5урок_1.pdb
+/Users/alex/Desktop/Geekbrains_education/ДЗ_5урок_1/obj/Debug/net6.0/ДЗ_5урок_1.dll
+/Users/alex/Desktop/Geekbrains_education/ДЗ_5урок_1/obj/Debug/net6.0/refint/ДЗ_5урок_1.dll
+/Users/alex/Desktop/Geekbrains_education/ДЗ_5урок_1/obj/Debug/net6.0/ДЗ_5урок_1.pdb
+/Users/alex/Desktop/Geekbrains_education/ДЗ_5урок_1/obj/Debug/net6.0/ДЗ_5урок_1.genruntimeconfig.cache
+/Users/alex/Desktop/Geekbrains_education/ДЗ_5урок_1/obj/Debug/net6.0/ref/ДЗ_5урок_1.dll

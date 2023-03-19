@@ -1,0 +1,15 @@
+/Users/alex/Desktop/Geekbrains_education/Решения/bin/Debug/net6.0/Решения
+/Users/alex/Desktop/Geekbrains_education/Решения/bin/Debug/net6.0/Решения.deps.json
+/Users/alex/Desktop/Geekbrains_education/Решения/bin/Debug/net6.0/Решения.runtimeconfig.json
+/Users/alex/Desktop/Geekbrains_education/Решения/bin/Debug/net6.0/Решения.dll
+/Users/alex/Desktop/Geekbrains_education/Решения/bin/Debug/net6.0/Решения.pdb
+/Users/alex/Desktop/Geekbrains_education/Решения/obj/Debug/net6.0/Решения.csproj.AssemblyReference.cache
+/Users/alex/Desktop/Geekbrains_education/Решения/obj/Debug/net6.0/Решения.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alex/Desktop/Geekbrains_education/Решения/obj/Debug/net6.0/Решения.AssemblyInfoInputs.cache
+/Users/alex/Desktop/Geekbrains_education/Решения/obj/Debug/net6.0/Решения.AssemblyInfo.cs
+/Users/alex/Desktop/Geekbrains_education/Решения/obj/Debug/net6.0/Решения.csproj.CoreCompileInputs.cache
+/Users/alex/Desktop/Geekbrains_education/Решения/obj/Debug/net6.0/Решения.dll
+/Users/alex/Desktop/Geekbrains_education/Решения/obj/Debug/net6.0/refint/Решения.dll
+/Users/alex/Desktop/Geekbrains_education/Решения/obj/Debug/net6.0/Решения.pdb
+/Users/alex/Desktop/Geekbrains_education/Решения/obj/Debug/net6.0/Решения.genruntimeconfig.cache
+/Users/alex/Desktop/Geekbrains_education/Решения/obj/Debug/net6.0/ref/Решения.dll

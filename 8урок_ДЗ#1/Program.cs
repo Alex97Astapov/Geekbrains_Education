@@ -1,32 +1,44 @@
-﻿int[,] Matrix = new int[4, 4];
-int temp = 1;
-int i = 0;
-int j = 0;
+﻿// Задача 54: Задайте двумерный массив. Напишите программу, которая упорядочит по убыванию элементы каждой строки двумерного массива.
+// Например, задан массив:
+// 1 4 7 2
+// 5 9 2 3
+// 8 4 2 4
+// В итоге получается вот такой массив:
+// 7 4 2 1
+// 9 5 3 2
+// 8 4 4 2
 
-while (temp <= Matrix.GetLength(0) * Matrix.GetLength(1))
+int[,] GetArray(int m, int n, int min, int max)
 {
-   Matrix[i, j] = temp;
-   temp++;
-   if (i <= j + 1 && i + j < Matrix.GetLength(1) - 1)
+   int[,] res = new int[m, n];
+   for (int i = 0; i < m; i++)
    {
-      j++;
+      for (int j = 0; j < n; j++)
+      {
+         res[i, j] = new Random().Next(min, max + 1);
+      }
    }
-   else if (i < j && i + j >= Matrix.GetLength(0) - 1)
-   {
-      i++;
-   }
-   else if (i >= j && i + j > Matrix.GetLength(1) - 1)
-   {
-      j--;
-   }
-   else
-   {
-      i--;
-   }
+   return res;
 }
 
-PrintArray(Matrix);
-
+void SorttoLover(int[,] array)
+{
+   for (int i = 0; i < array.GetLength(0); i++)
+   {
+      for (int j = 0; j < array.GetLength(1); j++)
+      {
+         for (int k = 0; k < array.GetLength(1) - 1; k++)
+         {
+            if (array[i, k] < array[i, k + 1])
+            {
+               int p = array[i, k + 1];
+               array[i, k + 1] = array[i, k];
+               array[i, k] = p;
+            }
+         }
+      }
+   }
+}
 
 void PrintArray(int[,] array)
 {
@@ -34,15 +46,18 @@ void PrintArray(int[,] array)
    {
       for (int j = 0; j < array.GetLength(1); j++)
       {
-         if (array[i, j] / 10 <= 0)
-         {
-            Console.Write($"  {array[i, j]} ");
-         }
-         else
-         {
-            Console.Write($" {array[i, j]} ");
-         }
+         Console.Write($"{array[i, j]} ");
       }
       Console.WriteLine();
    }
 }
+
+Console.WriteLine("Введите кол-во строк ");
+int rows = int.Parse(Console.ReadLine());
+Console.WriteLine("Введите кол-во столбиков: ");
+int columns = int.Parse(Console.ReadLine());
+int[,] array = GetArray(rows, columns, 0, 10);
+PrintArray(array);
+Console.WriteLine();
+SorttoLover(array);
+PrintArray(array);

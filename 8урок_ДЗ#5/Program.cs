@@ -1,48 +1,36 @@
-﻿int[,] Matrix = new int[4, 4];
-int temp = 1;
-int i = 0;
-int j = 0;
-
-while (temp <= Matrix.GetLength(0) * Matrix.GetLength(1))
+﻿int[,,] GetArray(int min, int max)
 {
-   Matrix[i, j] = temp;
-   temp++;
-   if (i <= j + 1 && i + j < Matrix.GetLength(1) - 1)
+   int[,,] res = new int[2, 2, 2];
+   for (int i = 0; i < 2; i++)
    {
-      j++;
+      for (int j = 0; j < 2; j++)
+      {
+         for (int k = 0; k < 2; k++)
+         {
+            res[i, j, k] = new Random().Next(min, max + 1);
+         }
+      }
    }
-   else if (i < j && i + j >= Matrix.GetLength(0) - 1)
-   {
-      i++;
-   }
-   else if (i >= j && i + j > Matrix.GetLength(1) - 1)
-   {
-      j--;
-   }
-   else
-   {
-      i--;
-   }
+   return res;
 }
 
-PrintArray(Matrix);
-
-
-void PrintArray(int[,] array)
+void PrintArrat(int[,,] array)
 {
    for (int i = 0; i < array.GetLength(0); i++)
    {
       for (int j = 0; j < array.GetLength(1); j++)
       {
-         if (array[i, j] / 10 <= 0)
+         Console.Write($"({i}) ({j})");
+         for (int k = 0; k < array.GetLength(2); k++)
          {
-            Console.Write($"  {array[i, j]} ");
+            Console.Write($"({k})={array[i, j, k]}; ");
          }
-         else
-         {
-            Console.Write($" {array[i, j]} ");
-         }
+         Console.WriteLine();
       }
       Console.WriteLine();
    }
 }
+
+Console.Clear();
+int[,,] Array = GetArray(10, 99);
+PrintArrat(Array);

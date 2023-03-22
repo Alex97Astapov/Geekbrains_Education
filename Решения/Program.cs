@@ -1,69 +1,56 @@
-﻿Console.WriteLine($"\nВведите размер массива X x Y x Z:");
-int x = InputNumbers("Введите X: ");
-int y = InputNumbers("Введите Y: ");
-int z = InputNumbers("Введите Z: ");
-Console.WriteLine($"");
+﻿// Задача 64: Задайте значение N.
+// Напишите программу, которая выведет все натуральные числа в промежутке от N до 1.
+// Выполнить с помощью рекурсии.
 
-int[,,] array3D = new int[x, y, z];
-CreateArray(array3D);
-WriteArray(array3D);
+// N = 5 -> "5, 4, 3, 2, 1"
+// N = 8 -> "8, 7, 6, 5, 4, 3, 2, 1"
 
-int InputNumbers(string input)
+int PrintNumber(int a, int b)
 {
-   Console.Write(input);
-   int output = Convert.ToInt32(Console.ReadLine());
-   return output;
+   if (a == b) return a;
+   else Console.Write($"{PrintNumber(a, b + 1)}  ");
+   return b;
 }
 
-void WriteArray(int[,,] array3D)
+
+Console.WriteLine("Введите число: ");
+int a = int.Parse(Console.ReadLine());
+
+if (a < 1)
 {
-   for (int i = 0; i < array3D.GetLength(0); i++)
-   {
-      for (int j = 0; j < array3D.GetLength(1); j++)
-      {
-         Console.Write($"X({i}) Y({j}) ");
-         for (int k = 0; k < array3D.GetLength(2); k++)
-         {
-            Console.Write($"Z({k})={array3D[i, j, k]}; ");
-         }
-         Console.WriteLine();
-      }
-      Console.WriteLine();
-   }
+   Console.WriteLine("Ввдите положительное число!");
+   return;
+}
+PrintNumber(a, 0);
+
+
+// Задача 66: Задайте значения M и N. 
+// Напишите программу, которая найдёт сумму натуральных элементов в промежутке от M до N.
+// M = 1; N = 15 -> 120
+// M = 4; N = 8. -> 30
+
+int Prompt(string message)
+{
+   Console.Write(message);
+   int result = Convert.ToInt32(Console.ReadLine());
+   return result;
 }
 
-void CreateArray(int[,,] array3D)
+int SumOfElements(int n, int m)
 {
-   int[] temp = new int[array3D.GetLength(0) * array3D.GetLength(1) * array3D.GetLength(2)];
-   int number;
-   for (int i = 0; i < temp.GetLength(0); i++)
-   {
-      temp[i] = new Random().Next(10, 100);
-      number = temp[i];
-      if (i >= 1)
-      {
-         for (int j = 0; j < i; j++)
-         {
-            while (temp[i] == temp[j])
-            {
-               temp[i] = new Random().Next(10, 100);
-               j = 0;
-               number = temp[i];
-            }
-            number = temp[i];
-         }
-      }
-   }
-   int count = 0;
-   for (int x = 0; x < array3D.GetLength(0); x++)
-   {
-      for (int y = 0; y < array3D.GetLength(1); y++)
-      {
-         for (int z = 0; z < array3D.GetLength(2); z++)
-         {
-            array3D[x, y, z] = temp[count];
-            count++;
-         }
-      }
-   }
+   if (n == m) return n;
+   else return SumOfElements(n + 1, m) + n;
 }
+
+int n = Prompt("Input N: ");
+int m = Prompt("Input M: ");
+
+Console.WriteLine(SumOfElements(n, m));
+
+
+// Задача 68: Напишите программу вычисления функции Аккермана с помощью рекурсии.
+// Даны два неотрицательных числа m и n.
+// m = 2, n = 3 -> A(m,n) = 9
+// m = 3, n = 2 -> A(m,n) = 29
+
+
